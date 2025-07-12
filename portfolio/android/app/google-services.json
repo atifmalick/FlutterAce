@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "286539606227",
+    "firebase_url": "https://realtime-database-54b25-default-rtdb.firebaseio.com",
+    "project_id": "realtime-database-54b25",
+    "storage_bucket": "realtime-database-54b25.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286539606227:android:1339c7f5140c671e510c26",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOW3Qb6SMY7Upvtcf9aJbxsqP40PWzFrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286539606227:android:04452afada906108510c26",
+        "android_client_info": {
+          "package_name": "com.example.portfolio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOW3Qb6SMY7Upvtcf9aJbxsqP40PWzFrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
