@@ -1,0 +1,8 @@
+# Copy this file to key.properties (same folder) and fill with your keystore values.
+# Do NOT commit your real key.properties to version control.
+
+storeFile=../keystore/my-release-key.jks
+storePassword=your_store_password_here
+keyAlias=your_key_alias_here
+keyPassword=your_key_password_here
+
