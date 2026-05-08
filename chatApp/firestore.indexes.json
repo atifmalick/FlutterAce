@@ -1,0 +1,21 @@
+{
+  "indexes": [
+    {
+      "collectionId": "chatRooms",
+      "fields": [
+        { "fieldPath": "participants", "mode": "ARRAY_CONTAINS" },
+        { "fieldPath": "lastMessageTime", "order": "DESCENDING" }
+      ],
+      "queryScope": "COLLECTION"
+    },
+    {
+      "collectionId": "messages",
+      "fields": [
+        { "fieldPath": "receiverId", "order": "ASCENDING" },
+        { "fieldPath": "status", "order": "ASCENDING" }
+      ],
+      "queryScope": "COLLECTION_GROUP"
+    }
+  ],
+  "fieldOverrides": []
+}

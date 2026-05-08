@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "887995098539",
+    "project_id": "rolebase",
+    "storage_bucket": "rolebase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887995098539:android:46706a649c3e7e267d1eee",
+        "android_client_info": {
+          "package_name": "com.example.mutli_role"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7PWW0JzhScUW1DYB-xoyRNiqKs52W0c8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

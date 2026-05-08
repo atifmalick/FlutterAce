@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Location Permissions -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>CircleGuard needs your location to track and share it with your circles.</string>
+    
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>CircleGuard needs your location to track and share it with your circles, even when the app is closed.</string>
+    
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>CircleGuard needs your location to track and share it with your circles in the background.</string>
+
+    <!-- Background Modes -->
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>location</string>
+        <string>fetch</string>
+        <string>processing</string>
+    </array>
+
+    <!-- Notification Permissions -->
+    <key>UIApplicationSupportsLocalNotifications</key>
+    <true/>
+
+    <!-- Camera (optional for future avatar upload) -->
+    <key>NSCameraUsageDescription</key>
+    <string>CircleGuard may need camera access to update your profile picture.</string>
+
+    <!-- Google Maps API Key -->
+    <key>GMSApiKey</key>
+
+    <!-- Photo Library (optional for future avatar upload) -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>CircleGuard may need access to your photos to update your profile picture.</string>
+
+    <!-- Internet Access -->
+    <key>NSBonjourServices</key>
+    <array>
+        <string>_http._tcp</string>
+        <string>_https._tcp</string>
+    </array>
+
+</dict>
+</plist>
